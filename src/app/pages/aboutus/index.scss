@@ -1,0 +1,140 @@
+ul {
+    li {
+        list-style-type: disc;
+    }
+}
+
+.faq-title {
+    justify-content: center !important;
+    border-bottom: none !important;
+    h2 {
+        font-size: 2.6vw !important;
+        color: #1a2a5d !important;
+    }
+}
+.rmd-expansion-panel__header {
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #1a2a5d;
+    padding-left: 1vw;
+    font-family: "Poppins", sans-serif !important;
+    align-items: flex-start !important;
+    text-align: justify !important;
+}
+.row-title {
+    padding: 1.2vw 0 1.6vw 0 !important;
+}
+.rmd-card {
+    font-family: "Poppins", sans-serif !important;
+    h5 {
+        margin: 0;
+        font-size: 1.2vw;
+        font-weight: 400;
+        padding: 0 0 1.6vw 0;
+        word-spacing: 1px;
+        text-align: justify !important;
+    }
+    h6 {
+        margin: 0;
+        font-size: 1.2vw;
+        font-weight: 400;
+        padding: 0 0 1vw 0;
+        word-spacing: 1px;
+    }
+}
+.rmd-card:hover .rmd-expansion-panel__header {
+    background-color: #9894944a;
+    color: #00aff0;
+}
+// .rmd-expansion-panel--margin-top {
+//     margin-top: 0;
+// }
+
+.help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw 0;
+    h1 {
+        font-size: 3vw;
+        margin: 0;
+        padding-bottom: 2vw;
+        color: #385d9c;
+    }
+    &__container {
+        width: 80%;
+    }
+}
+
+// .faq-row {
+//     height: 50px;
+// }
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    .rmd-card {
+        h5 {
+            font-size: 3.6vw;
+            text-align: start !important;
+        }
+        h6 {
+            font-size: 3.6vw;
+            text-align: start !important;
+        }
+    }
+    .help {
+        padding: 6vw 0;
+        h1 {
+            font-size: 6vw;
+            padding-bottom: 3vw;
+        }
+        &__container {
+            width: 90%;
+        }
+    }
+    .rmd-expansion-panel__header {
+        font-size: 4vw;
+        line-height: 20px;
+        text-align: start !important;
+        word-spacing: 2px;
+        padding-left: 3vw !important;
+    }
+}
+
+@media screen and (min-width: 761px) and (max-width: 1020px) {
+    .rmd-card {
+        h5 {
+            font-size: 2vw;
+        }
+        h6 {
+            font-size: 2vw;
+        }
+    }
+    .faq-title {
+        h2 {
+            font-size: 4vw !important;
+        }
+    }
+    .rmd-expansion-panel__header {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1399px) {
+    .rmd-card {
+        h5 {
+            font-size: 1.7vw;
+        }
+        h6 {
+            font-size: 1.7vw;
+        }
+    }
+    .faq-title {
+        h2 {
+            font-size: 3vw !important;
+        }
+    }
+    .rmd-expansion-panel__header {
+        font-size: 2vw;
+    }
+}
